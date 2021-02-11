@@ -1,0 +1,16 @@
+import React from 'react';
+import {NavLink} from 'react-router-dom'
+import './Menu.scss'
+
+
+export function Menu(){
+    return(
+        <nav className="navMenu">
+           
+           
+            <NavLink className="navLink" to="/">HOME</NavLink>
+            <NavLink className="navLink" to="/amiibos">AMIIBOS</NavLink>
+
+        </nav>
+    )
+}
