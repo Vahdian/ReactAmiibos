@@ -10,6 +10,10 @@ export function Menu(){
            
             <NavLink className="navLink" to="/">HOME</NavLink>
             <NavLink className="navLink" to="/amiibos">AMIIBOS</NavLink>
+            <NavLink className="navLink" to="/games">GAMES</NavLink>
+            <NavLink className="navLink" to="/contact">CONTACT</NavLink>
+
+            
 
         </nav>
     )

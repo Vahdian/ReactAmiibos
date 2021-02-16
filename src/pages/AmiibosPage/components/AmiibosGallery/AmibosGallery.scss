@@ -3,8 +3,43 @@
 .c-amiibos-gallery{
     border: 2px solid white;
     border-radius: 1rem;
-    background-color: rgba(255, 81, 0, 0.781);
+    background-color: red;
+  background-image:
+    linear-gradient(
+      red, #f06d06
+    );
     margin:2rem;
     object-fit: contain;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+.c-amiibos-gallery2{
+    border: 2px solid white;
+    border-radius: 1rem;
+    background-color: red;
+  background-image:
+    linear-gradient(
+      rgb(180, 195, 47), #2dad38
+    );
+    margin:0rem;
+    object-fit: contain;
+    padding: 0rem;
+    width: 50%;
+    margin: auto;
+}
+
+.backbutton{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+.detailbutton{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nameamiibo{
+    font-size: 1.4rem;
 }
